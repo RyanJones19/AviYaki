@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aviyaki Arena Coaching</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+ol{
+  list-style:none}
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.leftpane {
+    width: 15%;
+    height: 100%;
+    float: left;
+	background-image: url("backgroundBlack.PNG");
+	background-repeat: repeat-y;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+.middlepane {
+    width: 70%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+.rightpane {
+  width: 15%;
+  height: 100%;
+  position: relative;
+  float: right;
+  background-image: url("backgroundBlack.PNG");
+  background-repeat: repeat-y;
+  background-color: white;
+  border-collapse: collapse;
+}
+
+.toppane {
+  width: 100%;
+  height: 300px;
+  border-collapse: collapse;
+  background-color: #4da6ff;
+}
+
+.avisura {
+
+	width: 100%;
+	height: 300px;
+	border-collapse: collapse;
+	background-image: url("Avisura.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	border-style: solid;
+	border-width: thin;
+	border-color: #FFFFFF;
+
+}
+
+.zunniyaki {
+
+	width: 100%;
+	height: 300px;
+	border-collapse: collapse;
+	background-image: url("Zunniyaki.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	border-style: solid;
+	border-width: thin;
+	border-color: #FFFFFF;
+
+}
+
+.zeepeye {
+
+	width: 100%;
+	height: 300px;
+	border-collapse: collapse;
+	background-image: url("Zeepeye.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	border-style: solid;
+	border-width: thin;
+	border-color: #FFFFFF;
+
+}
+
+.noliferqt {
+
+	width: 100%;
+	height: 300px;
+	border-collapse: collapse;
+	background-image: url("Nolifer.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	border-style: solid;
+	border-width: thin;
+	border-color: #FFFFFF;
+
+}
+a.b2 {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+  <!--<svg height="100" width="100">
+    <circle cx="50" cy="50" r="31" stroke="#679b08" stroke-width="9.5" fill="none" />
+    <circle cx="50" cy="50" r="6" stroke="#679b08" stroke-width="1" fill="#679b08" />
+    <line x1="50" y1="50" x2="35" y2="50" style="stroke:#679b08;stroke-width:6" />
+    <line x1="65" y1="35" x2="50" y2="50" style="stroke:#679b08;stroke-width:6" />
+    <path d="M59 65 L83 65 L75 87 Z" fill="#679b08" />
+    <rect width="20" height="9" x="70" y="56" style="fill:#eee;stroke-width:0;" />
+  </svg> -->
+<!--<div class="bg"></div>-->
+
+<div class="container">
+<div class="leftpane">
+<ol>
+	<li><a href="avizura.html" class="b2">Avizura</a></li>
+	
+	<li><a href="zunniyaki.html" class="b2">Zunniyaki</a></li>
+	
+	<li><a href="nolifer.html" class="b2">Nolifer</a></li>
+	
+	<li><a href="zeepeye.html" class="b2">Zeepeye</a></li>
+</ol>
+</div>
+<div class="middlepane">
+    <!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed script -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: "100%",
+        height: 520,
+        channel: "avizura"
+      });
+    </script>
+</div>
+<div class="rightpane"></div>
+</div>
+
+
+</body>
+</html>
